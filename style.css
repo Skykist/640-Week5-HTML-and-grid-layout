@@ -1,0 +1,126 @@
+body {
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(246, 255, 115);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(34, 72, 128);
+}
+
+.inputLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input.inputField {
+    padding: 5px;
+    border: 1px solid orange;
+}
+
+div.box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+#primary1 {
+    background-color: #A1CDA8;
+}
+
+#primary2 {
+    background-color: rgb(140, 252, 106);
+}
+
+#primary3 {
+    background-color: rgb(255, 218, 117);
+}
+
+.navbar-custom {
+    background-color: rgb(255, 218, 117);
+}
+
+.warning {
+    background-color: #EDEBA0;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.danger {
+    background-color: #E3848B;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #B3CAB7;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+svg.svg-inline--fa {
+    color: white;
+}
+
+.spacer {
+    margin-top: 25px;
+}
+
+#footer {
+    border-top: 1px solid #dddddd;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 414px) {
+    .deviceWidth {
+        width:280px!important; padding:0;
+    }	
+    .center {
+        text-align: center!important;
+    }	 
+}
+
+@media (min-width: 600px) {
+    p {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media (min-width: 800px) {
+    p {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+}
+
